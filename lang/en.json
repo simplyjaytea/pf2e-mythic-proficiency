@@ -2,8 +2,8 @@
   "pf2e-mythic-proficiency": {
     "settings": {
       "value": {
-        "name": "Mythic Proficiency Modifier",
-        "hint": "Flat modifier offered as a toggle on skill checks and saving throws. Set to 0 to disable."
+        "name": "Mythic Proficiency Bonus",
+        "hint": "Target proficiency bonus of a mythic rank (default 10). The toggle fills the gap from the actor's current rank up to this value (mythic bonus − current rank × 2)."
       }
     },
     "modifier": {

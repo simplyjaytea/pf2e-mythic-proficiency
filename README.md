@@ -4,7 +4,9 @@ Foundry VTT module for the PF2e system. Adds a toggleable flat modifier to skill
 
 ## What it does
 
-Injects a **Mythic Proficiency** modifier into every skill check and saving throw. It shows up as an unchecked box in the roll dialog — tick it when you want the bonus, leave it off otherwise. The modifier value is a single world setting (default `+5`).
+Injects a **Mythic Proficiency** modifier into every skill check and saving throw. It shows up as an unchecked box in the roll dialog — tick it when you want the bonus, leave it off otherwise.
+
+The bonus is computed per roll to fill the gap from the actor's current proficiency rank up to a mythic rank: `mythic bonus − current rank × 2`. With the default mythic bonus of `10`, a legendary actor gets `+2`, an expert `+6`, an untrained one `+10` — each promoted to the same mythic total. The modifier is untyped, so it stacks with everything.
 
 ## Install
 
@@ -16,7 +18,7 @@ https://github.com/simplyjaytea/pf2e-mythic-proficiency/releases/latest/download
 
 ## Configure
 
-**Game Settings → Configure Settings → Mythic Proficiency** — set the modifier value. `0` disables it.
+**Game Settings → Configure Settings → Mythic Proficiency Bonus** — set the mythic rank's target proficiency bonus (default `10`).
 
 ## Releasing
 
