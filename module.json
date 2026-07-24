@@ -4,6 +4,9 @@
   "description": "Adds a toggleable mythic proficiency modifier to skill checks and saving throws.",
   "version": "1.0.0",
   "authors": [{ "name": "jt", "url": "https://github.com/simplyjaytea" }],
+  "url": "https://github.com/simplyjaytea/pf2e-mythic-proficiency",
+  "manifest": "https://github.com/simplyjaytea/pf2e-mythic-proficiency/releases/latest/download/module.json",
+  "download": "https://github.com/simplyjaytea/pf2e-mythic-proficiency/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
