@@ -1,0 +1,28 @@
+{
+  "id": "pf2e-mythic-proficiency",
+  "title": "PF2e Mythic Proficiency",
+  "description": "Adds a toggleable mythic proficiency modifier to skill checks and saving throws.",
+  "version": "1.0.0",
+  "authors": [{ "name": "jt", "url": "https://github.com/simplyjaytea" }],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": ["scripts/module.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}

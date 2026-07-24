@@ -1,0 +1,13 @@
+{
+  "pf2e-mythic-proficiency": {
+    "settings": {
+      "value": {
+        "name": "Mythic Proficiency Modifier",
+        "hint": "Flat modifier offered as a toggle on skill checks and saving throws. Set to 0 to disable."
+      }
+    },
+    "modifier": {
+      "label": "Mythic Proficiency"
+    }
+  }
+}
